@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Gmail Login Test Scenario",
+        "description": "",
+        "id": "gmail--login-feature;gmail-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8326331780,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "StepDef.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5878014641,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"aishwaryapk2009@gmail.com\" and \"ashisthebest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aishwaryapk2009@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "ashisthebest",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDef.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4146615673,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11372204104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user click on last mail",
+            "match": {
+              "location": "StepDef.the_user_click_on_last_mail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gmail  Login Feature",
+    "description": "",
+    "id": "gmail--login-feature",
+    "keyword": "Feature",
+    "uri": "gmail.feature"
+  }
+]
